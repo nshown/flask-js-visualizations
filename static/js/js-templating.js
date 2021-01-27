@@ -17,4 +17,11 @@ var data = [
     }
   ];
   
-  Plotly.newPlot('my-chart', data);
+Plotly.newPlot('my-chart', data);
+
+//console.log the time
+var tempDate = new Date();
+console.log("finished running js-templating.js file", 
+  tempDate.toLocaleTimeString(), 
+  tempDate.getMilliseconds(),
+  "MS");
